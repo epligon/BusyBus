@@ -1,0 +1,153 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #FFFFFF;
+ font-family: Roboto;
+ font-size: 18px;
+ font-weight: 200;
+ margin: 0 auto;
+ color: #474D5F;
+}
+
+.container {
+ background-color: #6DAAFF;
+ width: 360px;
+ height: 640px;
+ overflow: auto;
+}
+
+.status-bar {
+ width: 360px;
+ position: fixed;
+ z-index: 200;
+}
+
+.nav-bar {
+  width: 360px;
+  background-color: #448AFF;
+  padding: 35px 15px 8px 15px;
+  color: #FFFFFF;
+  position: fixed;
+  z-index: 100;
+}
+
+.arrow-left{
+ display: inline-block;
+ float: left;
+ color: #FFFFFF;
+}
+
+h1 {
+ text-align: center;
+ letter-spacing: 0.05em;
+}
+
+.stop-routes {
+ background-color: #FFFFFF;
+ top: 68px;
+ width: 360px;
+ position: relative;
+ padding-bottom: 30px;
+}
+
+.direction {
+ width: 360px;
+ height: 35px;
+ background-color: #99C4FF;
+ text-transform: uppercase;
+ font-weight: 300;
+ font-size: 0.7em;
+ letter-spacing: 0.1em;
+}
+
+.direction h3 {
+ margin-left: 16px;
+ padding: 3% 0 3% 0;
+}
+
+.route-listing {
+ width: 360px;
+ height: 60px;
+}
+
+.route-number {
+ width: 20%;
+ font-weight: 400;
+ text-align: center;
+ padding-top: 5%;
+ font-size: 1.5em;
+ display: inline-block;
+ float: left;
+ color: #FF6900;
+}
+
+.route-name {
+ display: inline-block;
+ width: 47%;
+ font-size: 0.9em;
+ padding: 6% 0% 6% 2%;
+ font-weight: 350;
+}
+
+.frequency {
+ display: inline-block;
+ color: #2F6BFF;
+ width: 27%;
+ float: right;
+ margin: 5% 0% 0% 0%;
+ text-align: left;
+}
+
+.inactive {
+  text-align: center;
+  margin: 2% 1% 0% 0%;
+}
+
+.alert {
+  background-color: #b7b5b5;
+  color: #474D5F;
+  font-weight: 500;
+}
+
+.alert-icon {
+  display: inline-block;
+  width: 15%;
+  margin: 2% 3% 0% 0%;
+  font-size: 48px;
+  float: right;
+  color: #ffbf00;
+}
+
+.frequency h6 {
+  display: inline-block;
+  font-size: 0.7em;/*14px*/
+}
+
+.frequency h5 {
+  display: inline-block;
+  font-size: 1.2em; /*26px*/
+  font-weight: 100;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.bottom-nav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 592px;
+    width: 360px;
+}
+
+hr {
+   display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #666;
+   margin: 0 10px 0 10px;
+   padding: 0;
+}
